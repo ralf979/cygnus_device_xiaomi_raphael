@@ -35,7 +35,7 @@
 #define FOD_SENSOR_SIZE 190
 
 namespace vendor {
-namespace lineage {
+namespace cygnus {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -146,5 +146,5 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace cygnus
 }  // namespace vendor
