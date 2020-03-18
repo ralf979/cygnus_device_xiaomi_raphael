@@ -12,5 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+COMMON_LUNCH_CHOICES := cygnus_raphael-userdebug
+
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cygnus_raphael.mk

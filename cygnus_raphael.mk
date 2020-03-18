@@ -14,7 +14,7 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
-
+include device/qcom/common/common.mk
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/cygnus/configs/common.mk)
 
